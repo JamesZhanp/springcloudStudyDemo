@@ -1,12 +1,12 @@
 server:
-  port: 7001
+  port: 7002
 
 eureka:
   instance:
     #    集群
-    hostname: eureka7001.com
+    hostname: eureka7002.com
   # 单机
-#    hostname: localhost
+  #    hostname: localhost
   client:
     # 不向注册中心注册自己
     register-with-eureka: false
@@ -14,5 +14,5 @@ eureka:
     fetch-registry: false
     service-url:
       # 设置Eureka Server的地址查询服务和注册服务都需要这个地址
-#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-      defaultZone: http://eureka7002.com:7002/eureka
+      #      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka
