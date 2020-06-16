@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-provider-payment8001</artifactId>
+    <artifactId>cloud-provider-payment8002</artifactId>
 
     <dependencies>
         <dependency>
@@ -50,8 +50,9 @@
         <dependency>
             <groupId>com.james.cloud</groupId>
             <artifactId>cloud-api-commons</artifactId>
-            <version>${project.version}</version>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
 
     </dependencies>
+
 </project>
